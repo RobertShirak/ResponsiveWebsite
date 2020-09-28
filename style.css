@@ -1,0 +1,645 @@
+
+   body{
+     margin: 0;
+     width:100%;
+     display: flex;
+     flex-direction: column;
+
+   }
+
+   header{
+     background-image: url("alps-altitude-bird-s-eye-view-2013658.png");
+     width:100%;
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 620px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding-bottom: 50px;
+     
+   }
+
+   .wonderful-world{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 120px;
+    color:white;
+    transform: rotate(-7deg);
+    text-align: right;
+    width: 90%;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+    
+
+  }
+
+   br{
+     font-size:128px ;
+     
+   }
+     
+    
+   
+   .our-work-button{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+     
+     
+     
+
+   }
+
+   .about-me{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     background-color: #3693D6;
+     height: 100%;
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom: 50px;
+   }
+
+
+   main{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+
+   }
+
+   .grid{
+    display: grid;
+    grid-gap: 5px;
+    height: 650px;
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+
+   }
+
+   .house-img{
+     grid-row: 1;
+     grid-column: 1;
+     background-image: url("cold-daylight-fjord-1586298.png");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+
+   }
+
+   .dog-img{
+     grid-row: 1;
+     grid-column: 2 / span 2 ;
+     background-image: url("adorable-animal-breed-434090.png");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+
+
+   }
+
+   .ski-img{
+    grid-row: 2 / span 2;
+    grid-column: 1 / span 2 ;
+    background-image: url("action-active-cold-2433353.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   }
+
+   .backpack-img{
+    grid-row: 2;
+    grid-column: 3 ;
+    background-image: url("adventure-adventurer-altitude-2577274.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   }
+
+   .cross-img{
+    grid-row: 3;
+    grid-column: 3 ;
+    background-image: url("beatiful-landscape-cold-colors-2832052.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   }
+
+   .test{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+
+   }
+
+   .colored-text{
+     color:#3693D6 ;
+     font-family: 'Lato', sans-serif;
+     font-size: 52px;
+   }
+
+   h2{
+     color: white;
+     font-size: 52px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+   }
+
+   /* p{
+     color: white;
+     font-size: 42px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 75%;
+   } */
+
+   .blue-text{
+    color:#3693D6 ;
+    font-size: 32px;
+    text-align: center;
+    width: 60%;
+    padding-bottom: 10px;
+   }
+
+   h4{
+    font-family: 'Lato', sans-serif;
+    color:#3693D6 ;
+
+   }
+
+   .white-text{
+     color: white;
+     font-size: 42px;
+     font-family: 'Lato', sans-serif;
+   }
+
+   
+
+   .navigation{
+     margin-left: 100px;
+     margin-top: 50px;
+     justify-content: space-between;
+     display: flex;
+     margin-right: 40px;
+     width: 90%;
+     align-items: center;
+     
+   }
+   
+   
+
+
+   .second-logo{
+     margin-left: 15px;
+     display: flex;
+     justify-content: space-between;
+     
+     
+   }
+   
+   .logo-images{
+     display: flex;
+     width: 100%;
+     
+   }
+
+   ul {
+     display: flex;
+     list-style: none;
+     margin-right: 15px;
+     align-items: center;
+     max-width: 100%;
+     
+
+
+   }
+
+   li{
+     margin: 0;
+     margin-left: 10px;
+     
+
+   }
+
+   .logo{
+     display: flex;
+     justify-content: space-between;
+   }
+
+   h5{
+     color:#3693D6;
+     font-family: 'Lato', sans-serif;
+     font-size: 42px;
+     
+   }
+
+   .dots{
+     padding-bottom: 100px;
+     padding-top: 50px;
+   }
+
+   .first-quote{
+    align-self: flex-start;
+    padding-left: 170px;
+    padding-top: 10px;
+    
+    
+    
+   }
+
+   .second-quote{
+     align-self: flex-end;
+     padding-right: 150px;
+     padding-top: 180px;
+     
+   }
+
+   .quote-container{
+     text-align: center;
+     display: flex;
+     flex-direction: row;
+     width: 70%;
+     align-items:center;
+    
+
+   }
+
+   .our-work-image {
+     margin-bottom: 150px;
+     
+   }
+
+   .carolyn-img{
+     border-radius: 50%;
+     width: 300px;
+     height: 300px;
+     background-image: url("adorable-beautiful-child-884979.png");
+     background-size: cover;
+     
+   }
+
+   .navtext{
+     color: white;
+     font-family: 'Lato', sans-serif;
+     font-weight: bold;
+   }
+
+   .hello{
+     color: #3693D6;
+     background-color: white;
+     border: 1px solid white;
+     font-family: 'Lato', sans-serif;
+     font-weight: bold; 
+     width: 90px;
+      height: 30px;
+      border-radius: 100px / 50px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      padding-top: 10px;
+   }
+   .navtext-home{
+     border: 1px solid white;
+     border-right: none;
+     border-left: none;
+     border-top: none;
+     color: white;
+     font-family: 'Lato', sans-serif;
+     font-weight: bold;
+     
+   }
+
+   .footer-grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5px;
+    height: 100px;
+    width: 95%;
+    grid-template-columns: 1vh 1vh 1vh 1vh 1vh ;
+    grid-template-rows: 1vw;
+    grid-gap:50px;
+
+   }
+
+   .footer-logos{
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+   }
+
+   .footer-location{
+     grid-row: 1;
+     grid-column: 2;
+     font-family: 'Lato', sans-serif;
+     font-weight: bold;
+     color: white;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    font-size: 32px;
+    
+
+   }
+
+   .footer-email{
+     grid-row: 1;
+     grid-column: 3;
+     font-family: 'Lato', sans-serif;
+     font-weight: bold;
+     color: white;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    font-size: 32px;
+
+   }
+
+   .footer-phone{
+     grid-row:1;
+     grid-column: 4;
+     font-family: 'Lato', sans-serif;
+     font-weight: bold;
+     color: white;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    font-size: 32px;
+
+   }
+
+   .footer-socials{
+     grid-row: 1;
+     grid-column: 5;
+     
+
+   }
+
+   footer{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    height: 469px;
+    width: 100%;
+    background-color:#3693D6 ;
+   }
+   
+   .location-font{
+     color: white;
+     font-family: 'Lato', sans-serif;
+     padding-top: 10px;
+     font-size: 18px
+
+   }
+
+   .email-font{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+    font-size: 18px
+   }
+
+   .phone-font{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+    font-size: 18px
+
+   }
+
+   @media screen and (max-width: 1200px){
+    body{
+      max-width: 100vw;
+      
+    }
+    main{
+      max-width:100vw;
+    }
+    footer{
+      max-width:100vw;
+      max-height: 100vh;
+    }
+    .navigation{
+      max-width: 50vw;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    ul{
+      max-width: 25vw;
+    }
+    .footer-grid{
+      max-width:100vw;
+      max-height: 100vh;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+   }
+   
+@media screen and (max-width:768px){
+  body{
+    max-width: 100vw;
+    
+  }
+  
+  main{
+    max-width:100vw;
+  }
+  footer{
+    max-width:100vw;
+    max-height: 100vh;
+  }
+  .navigation{
+    max-width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    max-width: 25vw;
+  }
+  .footer-grid{
+    max-width:100vw;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+  }
+
+  .about-me{
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    
+    
+  }
+  h2{
+    font-size: 30px;
+  }
+  header{
+    margin-bottom:30px;
+    background-color: #3693D6;
+  }
+
+
+
+  .white-text{
+    font-size: 20px;
+    text-align: center;
+    width: 50%
+  }
+  .our-work-button{
+    padding-bottom:500px;
+  }
+
+}
+
+@media screen and (max-width:375px){
+  body{
+    max-width: 100vw;
+    
+  }
+  
+  main{
+    max-width:100vw;
+  }
+  footer{
+    max-width:100vw;
+    max-height: 100vh;
+  }
+  .navigation{
+    max-width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: flex-start;
+    padding-right: 15px;
+  }
+
+  .logo{
+    max-width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .second-logo{
+    max-width: 38vw;
+    display: flex;
+    align-items: flex-start;
+  }
+  ul{
+    max-width: 10vw;
+    padding-right: 15px;
+  }
+  li{
+   max-width: 10vw;
+   margin:0;
+   margin-right: 15px;
+  }
+  .footer-grid{
+    max-width:100vw;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+  }
+  
+  .about-me{
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    
+    
+  }
+  h2{
+    font-size: 30px;
+  }
+  header{
+    margin-bottom:30px;
+    background-color: #3693D6;
+    width: 100vw;
+  }
+.wonderful-world{
+  font-size: 30px;
+}
+
+
+  .white-text{
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+  }
+  .our-work-button{
+    padding-bottom:500px;
+  }
+
+}
+
+
+@media screen and (min-width: 1250px){
+  body{
+    max-width: 100vw;
+    
+  }
+  main{
+    max-width:100vw;
+  }
+  footer{
+    max-width:100vw;
+    max-height: 100vh;
+  }
+    /* .navigation{
+    max-width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+  }   */
+   ul{
+    max-width: 25vw;
+  }
+  .footer-grid{
+    max-width:100vw;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+}
